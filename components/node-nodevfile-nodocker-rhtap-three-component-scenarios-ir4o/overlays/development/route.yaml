@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: node-nodevfile-nodocker-rhtap-three-component-scenarios-ir4o
     app.kubernetes.io/part-of: mc-three-scenarios
-  name: node-nodevfile-nodocker-ro4hz
+  name: node-nodevfile-nodocker-rhpev
 spec:
   path: /
   port:
