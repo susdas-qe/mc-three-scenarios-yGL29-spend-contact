@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: devfile-docker-python-rhtap-three-component-scenarios-embm
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: devfile-docker-python-rhtap-three-component-scenarios-embm
+    app.kubernetes.io/part-of: mc-three-scenarios
+  name: devfile-docker-python-rht0oby
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: devfile-docker-python-rhtap-three-component-scenarios-embm
+    weight: null
+status: {}
