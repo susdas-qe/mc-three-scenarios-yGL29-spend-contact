@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-go-rhtap-three-component-scenarios-uvv7
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/multi-comp-e2e-pvua-tenant/mc-three-scenarios/devfile-go-rhtap-three-component-scenarios-uvv7@sha256:f26075205a84986f35ebc2823de6a14bda4d2c226cd8def1d86b704256e9d1d9
+        name: my-go
+        resources: {}
+status: {}
