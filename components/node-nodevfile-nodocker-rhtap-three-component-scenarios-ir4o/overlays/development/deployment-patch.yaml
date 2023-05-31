@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: node-nodevfile-nodocker-rhtap-three-component-scenarios-ir4o
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/susdas_quay_org/multi-comp-e2e-pvua-tenant/mc-three-scenarios/node-nodevfile-nodocker-rhtap-three-component-scenarios-ir4o@sha256:070816f787a22078341656ece522b51eb417b1b44be0b5451115be42f0e18e29
+        name: my-nodejs
+        resources: {}
+status: {}
